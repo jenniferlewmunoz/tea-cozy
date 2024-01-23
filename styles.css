@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+/** Top navigation / header styles **/
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tea-cozy-logo {
+    height: 50px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    color: seashell;
+    font-size: 22px;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0 15px;
+}
+
+/** "Mission" section styles **/
+
+.mission-section {
+    background-image: url('images/img-mission-background.jpg');
+    height: 700px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-section div {
+    background-color: black;
+    color: seashell;
+    font-family: 'Helvetica', sans-serif;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.mission-section h2 {
+    margin-bottom: 10px;
+}
+
+/** "Tea of the month" section styles **/
+
+.tea-of-the-month-section {
+    display: flex;
+    flex-direction: column;
+    color: seashell;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.totm-header h2,
+h4 {
+    margin-bottom: 20px;
+}
+
+.totm-specials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.special {
+    margin: 10px;
+}
+
+.special img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+/** "Locations" section styles **/
+
+.locations-section {
+    background-image: url('images/img-locations-background.jpg');
+    height: 500px;
+    width: 1200px;
+
+    color: seashell;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+
+
+
+.location-descriptions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.location {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/** "Content" section styles **/
+
+.contact-section {
+    color: seashell;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+
+    height: 200px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/** Footer styles **/
+footer p {
+    color: seashell;
+    font-family: 'Helvetica', sans-serif;
+    text-align: left;
+}

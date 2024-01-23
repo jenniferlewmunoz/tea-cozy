@@ -1,0 +1,1 @@
+Making a tea website by following the given tech spec: https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg?_gl=1*1ndhc2y*_ga*MTQ3Mjg2NTg5Ny4xNzAyOTM1ODE5*_ga_3LRZM6TM9L*MTcwNjAzMjU5OS41MS4xLjE3MDYwMzI2MDIuNTcuMC4w
